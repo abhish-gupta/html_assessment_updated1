@@ -1,0 +1,169 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:'Open Sans', Helvetica, Arial, sans-serif;
+}
+html {
+  overflow-y: scroll; 
+}
+body{
+    background-image: url("../images/image1.jpg");
+    min-height: 380px;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+  }
+
+.header {
+    position: relative;
+    margin: 20px;
+    width: auto;
+  }
+  
+  .topnav {
+    overflow: hidden;
+    background-color: rgb(247, 243, 243);
+    height: 70px;
+  }
+  #txt{
+      position: absolute;
+      margin-left: 40%;
+      top: 12px;
+      font-weight: bold;
+      font-size: 25px;
+  }
+  .topnav h1 {
+    float: left;
+    color: #000000;
+    text-align: left;
+    padding: 10px 10px;
+    text-decoration: none;
+    font-size: 40px;
+    font-family: sans-serif;
+    position: relative;
+  }
+  .topnav img {
+    float: left;
+    width: 40px;
+    height: 40px;
+    padding: 0;
+    background: #555;
+    margin-top: 15px;
+    margin-left: 30px;
+    position: relative;
+  }
+  
+  .topnav a {
+    float: right;
+    color: #000000;
+    
+    padding: 16px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: sans-serif;
+  }
+  
+  .topnav a:hover {
+    background-color:white;
+    color: rgb(19, 209, 235);
+    height: 37px;
+  }
+  .text p{
+      margin-top: 1%;
+      margin-left: 0%;
+      color: white;
+      font-family: sans-serif;
+  }
+  .text h1{
+    margin-top: 25px;
+    color: white;
+    font-family: sans-serif;
+    font-weight: 100;
+    margin-left: 0;
+    }
+    .flex-container {
+        display: flex;
+        background-color: rgba(0,0,0,0);
+        margin: 10px;
+        height: 26px;
+        width: 25px;
+      }
+      
+      
+    .img1 {
+        margin: 3%;
+        position: relative;
+        
+    }
+    .img2 {
+      margin: 3%;
+      position: relative;
+      
+  }
+  .img3{
+    margin: 3%;
+    position: relative;
+    
+}
+.img4 {
+  margin: 3%;
+  position: relative;
+  
+}
+
+    .first-txt {
+        position: absolute;
+        top: 55px;
+        left: 80px;
+        color: white;
+    }
+      #flex1{
+        height: 300px;
+        width: 280px;
+        margin: 25px;
+      }
+      #flex2{
+        margin: 25px;
+        height: 300px;
+        width: 280px;
+      }
+      #flex3{
+        margin: 25px;
+        height: 300px;
+        width: 280px;
+      }
+      #flex4{
+        margin: 25px;
+        height: 300px;
+        width: 280px;
+      }
+
+      .flex-container h1{
+          color: white;
+          font-family: sans-serif;
+          text-align: center;
+          margin-top: 85px;
+      }
+      .flex-icons {
+        display: flex;
+        background-color: rgba(0,0,0,0);
+        margin-top: 320px;
+        margin-left: 550px;
+      }
+      .flex-icons img {
+        
+        height: 29px;
+        width:25px;
+        margin-top: 300px;
+        margin: 10px;
+        background-repeat: no-repeat;
+        color: white;
+      }
+      #copy{
+          color: white;
+          margin-left: 2%;
+          margin-top: 1%;
+          font-family: sans-serif;
+      }
+    
+  

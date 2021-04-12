@@ -1,0 +1,167 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: century Gothic;
+}
+body {
+  background-image: url("../images/image2.jpg");
+  min-height: 380px;
+  background-position: center;
+  background-size: 100%;
+  position: relative;
+}
+
+.header1 {
+  position: relative;
+  margin: 20px;
+  width: auto;
+}
+
+.topnav1 {
+  overflow: hidden;
+  background-color: rgb(247, 243, 243);
+  height: 70px;
+}
+#txt{
+    position: absolute;
+    margin-left: 40%;
+    top: 10px;
+    font-weight: bold;
+    font-size: 30px;
+}
+.topnav1 h1 {
+    float: left;
+    color: #000000;
+    text-align: left;
+    padding: 10px 10px;
+    text-decoration: none;
+    font-size: 40px;
+    font-family: sans-serif;
+    position: relative;
+  }
+  .topnav1 img {
+    float: left;
+    width: 40px;
+    height: 40px;
+    padding: 0;
+    background: #555;
+    margin-top: 15px;
+    margin-left: 30px;
+    position: relative;
+  }
+.topnav1 a {
+    float: right;
+    color: #000000;
+    text-align: right;
+    padding: 16px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: sans-serif;
+  }
+
+.topnav1 a:hover {
+  background-color: #ddd;
+  color: rgb(0, 153, 255);
+  height: 70px;
+}
+.flex-container {
+    display: flex;
+    background-color: rgba(0,0,0,0);
+    margin-left: 180px;
+  }
+.flex-container > div {
+    background-color: #fff;
+    height: 400px;
+    width:383px;
+    
+    margin: 55px;
+    font-size: 15px;
+    background-repeat: no-repeat;
+    color: white;
+  }
+#flex1{
+    font-family: 'Times New Roman', Times, serif;
+    color: #000000;
+    margin: 40px;
+    padding: 10px;
+}
+#flex1 h1{
+    font-family: sans-serif;
+    font-weight: lighter;
+}
+#flex1 p{
+    font-family: sans-serif;
+    margin: 10px;
+    font-size: 14px;
+}
+form input{
+    margin-top: 20px;
+    margin-left: 10px;
+    width: 90%;
+    font-family: sans-serif;
+}
+#fname{
+    height: 25px;
+    font-size:12pt;
+}
+#fmail{
+  height: 25px;
+  font-size:12pt;
+}
+#msg{
+    height: 100px;
+    font-size: 12pt;
+    font-family: sans-serif;
+    margin-top: 20px;
+    margin-left: 10px;
+    width: 90%;
+}
+#button{
+  background-color: black;
+  color: white;
+  padding: 12px 1px;
+  
+  
+  float: right;
+  margin-right: 25px;
+  width: 20%;
+}
+#button:hover{
+    background-color: rgb(83, 83, 146);
+}
+#flex2{
+    font-family: 'Times New Roman', Times, serif;
+    color: #000000;
+    margin: 40px;
+    padding: 10px;
+}
+#flex2 h3{
+    font-weight: normal;
+    font-family: sans-serif;
+    
+}
+#map{
+    width: 95%;
+    height: 350px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.flex-icons {
+    display: flex;
+    background-color: rgba(0,0,0,0);
+    margin-left:40%;
+    margin-top: -10px;
+  }
+  .flex-icons img {
+    height: 29px;
+    width:25px;
+    margin: 10px;
+    
+    background-repeat: no-repeat;
+    color: white;
+  }
+  p{
+      color: white;
+      margin-left: 2%;
+      font-family: sans-serif;
+  }

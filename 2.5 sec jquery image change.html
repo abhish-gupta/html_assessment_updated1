@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>2.5 sec Image Change</title>
+        <link rel = "stylesheet" type="text/css" href="styles/style1.css">
+        <script src = "JavaScript/clock.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="jQuery/2.5 sec jquery image change.js"></script>
+    </head>
+    <body onload = "startTime()">
+        
+            <div class = "header1">
+                <div class = "topnav1">
+                    <img src="images/logo.png">
+                    <h1>UPPER</h1>
+                    <div id = "txt" ></div>
+                    <a href="#">Contact</a>
+                    <a href="#">About us</a>
+                    <a href="#">Third Grid</a>
+                    <a href="#">Second</a>
+                    <a href="#">Gallery</a>
+                    <a href="#">Home</a>
+                </div>
+                <div class="flex-container">
+                    <div id="flex1" style="background-color: rgba(255, 255, 255,0.3 );">
+                        <h1>Contact Us</h1>
+                        <p>Praesent tempus dapibus odio nec elementum. Sed elementum</br> 
+                            est quis tortor faucibus, et molestie nibh finibus. Mauris</br>
+                            condimentum ex vestibulum fringilla consectetur.</p>
+                        
+                        <form name="ContactUs" onsubmit="return validate()">
+                            <input type="text" name="Name" placeholder ="Name" id="fname"><br>
+                            <input type="text" name="Email" placeholder="Email" id="fname"><br>
+                            <textarea name="Comment" placeholder="Your message" id="msg"></textarea></br>
+                            <input type="submit" value="Submit" id="button">
+                        </form>
+
+                    </div>
+                    <div id="flex2" style="background-color: rgba(255, 255, 255,0.3 );">
+                        <h3>123 New Street 11000, San Fransisco, CA</h3>
+                        <img src="images/map.jpg" id="map">
+                    </div>
+
+                </div>
+                <div class="flex-icons">
+                    <img src="images/fb.jpg">
+                    <img src="images/gplus.jpg">
+                    <img src="images/insta.jpg">
+                    <img src="images/twitter.jpg">
+                    <img src="images/linkedin.jpg">
+                </div>
+                <p>Copyright © 2016 Your Compimg-Design:Templatemo</p>
+            </div>
+        
+    </body>
+</html>
